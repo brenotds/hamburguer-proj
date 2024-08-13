@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/12de2d6155.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/output.css">
+    <title>Hamburguer</title>
+</head>
+
+<body>
+
+    <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
+        <div class="w-full h-full flex flex-col justify-center items-center">
+            <img src="./assets/hamb-1.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-full shadow-lg hover:scale-110 duration-200" />
+            <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Burger</h1>
+            <span class="text-white font-medium">St not too far 10, B67 1T3</span>
+
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-4">
+                <span class="text-green-950 font-medium">Mon to Sun - 6pm till 10pm</span>
+            </div>
+        </div>
+    </header>
+
+    <h2 class="text-2xl md:text-4xl font-bold text-center mt-9 mb-6">
+        Our menu
+    </h2>
+
+    <div id="menu">
+        <main class="grid grid-cols-1 md:grid-cols-2 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-1.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">Smash Burger</p>
+                    <p class="text-xs">A crispy, juicy beef patty smashed on a hot griddle for a perfectly caramelized crust, topped with melted American cheese, pickles, and our signature sauce, all on a toasted bun.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£8</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="Smash Burger" data-price="8"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-2.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">Bacon Cheeseburger</p>
+                    <p class="text-xs">A juicy beef patty topped with crispy bacon, melted cheddar cheese, fresh lettuce, tomato, and smoky BBQ sauce on a toasted brioche bun.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£9</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="Bacon Cheeseburger" data-price="9"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-3.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">Mushroom Swiss Burger</p>
+                    <p class="text-xs">Savory sautéed mushrooms and melted Swiss cheese crown this juicy beef patty, complemented by caramelized onions and garlic aioli on a soft Kaiser roll.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£9.50</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="Mushroom Swiss Burger" data-price="9.50"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-4.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">BBQ Bacon Ranch Burger</p>
+                    <p class="text-xs">A beef patty glazed with tangy BBQ sauce, topped with crispy bacon, melted pepper jack cheese, onion rings, and drizzled with ranch dressing, served on a toasted sesame seed bun.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£9</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="BBQ Bacon Ranch Burger" data-price="9"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-5.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">Smash Burger</p>
+                    <p class="text-xs">A crispy, juicy beef patty smashed on a hot griddle for a perfectly caramelized crust, topped with melted American cheese, pickles, and our signature sauce, all on a toasted bun.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£8</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="Smash Burger" data-price="8"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-6.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">Bacon Cheeseburger</p>
+                    <p class="text-xs">A juicy beef patty topped with crispy bacon, melted cheddar cheese, fresh lettuce, tomato, and smoky BBQ sauce on a toasted brioche bun.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£9</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="Bacon Cheeseburger" data-price="9"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-2.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">Mushroom Swiss Burger</p>
+                    <p class="text-xs">Savory sautéed mushrooms and melted Swiss cheese crown this juicy beef patty, complemented by caramelized onions and garlic aioli on a soft Kaiser roll.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£9.50</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="Mushroom Swiss Burger" data-price="9.50"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-2 bg-gray-200 p-3 rounded-sm">
+                <img src="./assets/hamb-8.png" alt="Photo of a hamburguer" class="w-32 h-32 rounded-md hover:scale-110" />
+                <div>
+                    <p class="font-bold">BBQ Bacon Ranch Burger</p>
+                    <p class="text-xs">A beef patty glazed with tangy BBQ sauce, topped with crispy bacon, melted pepper jack cheese, onion rings, and drizzled with ranch dressing, served on a toasted sesame seed bun.</p>
+                    <div class="flex items-center gap-2 justify-between mt-3">
+                        <p class="font-bold text-lg">£9</p>
+                        <button class="bg-gray-900 px-4 rounded add-to-cart-btn" data-name="BBQ Bacon Ranch Burger" data-price="9"><i class="fa fa-cart-plus text-lg text-white"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
