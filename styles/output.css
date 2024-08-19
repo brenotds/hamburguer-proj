@@ -675,6 +675,14 @@ video {
   top: 0px;
 }
 
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -780,6 +788,10 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .box-border {
@@ -915,6 +927,18 @@ video {
 
 .min-w-\[90\%\] {
   min-width: 90%;
+}
+
+.min-w-\[0\%\] {
+  min-width: 0%;
+}
+
+.min-w-\[50\%\] {
+  min-width: 50%;
+}
+
+.min-w-\[70\%\] {
+  min-width: 70%;
 }
 
 .max-w-7xl {
