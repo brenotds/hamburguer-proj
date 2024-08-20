@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/12de2d6155.js" crossorigin="anonymous"></script>
@@ -19,8 +20,8 @@
             <h1 class="text-4xl mt-4 mb-2 font-bold text-white">Burger</h1>
             <span class="text-white font-medium">St not too far 10, B67 1T3</span>
 
-            <div class="bg-green-600 px-4 py-1 rounded-lg mt-4">
-                <span class="text-green-950 font-medium">Mon to Sun - 6pm till 10pm</span>
+            <div class="bg-green-600 px-4 py-1 rounded-lg mt-4" id="date-span">
+                <span class="text-green-950 font-medium">Mon to Sun - 18:00 till 22:00</span>
             </div>
         </div>
     </header>
@@ -182,6 +183,9 @@
         <button class=" flex items-center gap-2 text-white font-bold" id="cart-btn">(<span id="cart-count">0</span>) Check cart<i class="fa fa-cart-plus text-lg"></i></button>
     </footer>
 
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./script.js"></script>
 </body>
 
